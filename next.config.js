@@ -2,7 +2,12 @@
 const nextConfig = {
   redirects: async () => [
     {
-      source: "*",
+      source: "/",
+      destination: "https://linktr.ee/dinkarkaikini",
+      permanent: true,
+    },
+    {
+      source: "/:path*",
       destination: "https://linktr.ee/dinkarkaikini",
       permanent: true,
     },
